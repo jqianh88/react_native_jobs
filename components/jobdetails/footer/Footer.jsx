@@ -5,7 +5,7 @@ import styles from './footer.style';
 import { icons } from '../../../constants';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-const Footer = () => {
+const Footer = ({ url }) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.likeBtn}>
